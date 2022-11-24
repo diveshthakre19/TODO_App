@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #03203C;
+    color: #fff;
+}
+
+.container{
+ display: block;
+ width: 400px;
+ margin: 100px auto 0;
+}
+
