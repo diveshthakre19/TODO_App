@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDoApp</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Add Tasks</label
+        ><input id="new-task" type="text" /><button>Add</button>
+      </p>
+
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li>
+          <input type="checkbox" /><label>Do Yoga</label
+          ><input type="text" /><button class="edit">Edit</button
+          ><button class="delete">Delete</button>
+        </li>
+        <li class="editMode">
+          <input type="checkbox" /><label>Go for Haircut</label
+          ><input type="text" value="Go for Haircut" /><button class="edit">
+            Edit</button
+          ><button class="delete">Delete</button>
+        </li>
+      </ul>
+
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li>
+          <input type="checkbox" checked /><label>Programing</label
+          ><input type="text" /><button class="edit">Edit</button
+          ><button class="delete">Delete</button>
+        </li>
+      </ul>
+    </div>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
